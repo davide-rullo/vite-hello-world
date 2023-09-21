@@ -1,6 +1,12 @@
+
+
 <script>
+
+import AppTitle from '../AppTitle.vue'
 export default {
-  // questo é il vs options object
+  components: {
+    AppTitle
+  }
 }
 </script>
 
