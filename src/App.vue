@@ -1,8 +1,10 @@
 
 
 <script>
+import AppTitle from './components/AppTitle.vue';
 
-import AppTitle from '../AppTitle.vue'
+
+
 export default {
   components: {
     AppTitle
@@ -12,4 +14,5 @@ export default {
 
 <template>
   <h1>Hello Vite!</h1>
+  <AppTitle></AppTitle>
 </template>
